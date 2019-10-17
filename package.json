@@ -1,0 +1,18 @@
+{
+  "name": "language",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "node index.js",
+    "make-report": "node make-report.js"
+  },
+  "dependencies": {
+    "@google-cloud/language": "^3.4.0",
+    "dotenv": "^8.2.0",
+    "mongoose": "^5.7.5",
+    "twitter": "^1.7.1",
+    "twitter-lite": "^0.9.4",
+    "yargs": "^14.2.0"
+  }
+}
